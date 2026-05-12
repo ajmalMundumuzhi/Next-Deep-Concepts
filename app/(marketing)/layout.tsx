@@ -45,6 +45,12 @@ export default function MarketingLayout({
               <Link href="/about" className="mx-2">
                 About
               </Link>
+              <Link href="/articles/braking-news-123&lang=en" className="mx-2">
+                Read in English
+              </Link>
+              <Link href="/articles/braking-news-123&lang=fr" className="mx-2">
+                Read in French
+              </Link>
             </div>
           </nav>
         </header>
