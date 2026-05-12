@@ -4,5 +4,5 @@ export default async function ProductDetails({
     params: Promise<{ productId: string }>
 }) {
         const productId = (await params).productId;
-        return <h1>Details about the product {productId}</h1>
+        return <h1>Details about the product (Dynamic routes) {productId}</h1>
 }
