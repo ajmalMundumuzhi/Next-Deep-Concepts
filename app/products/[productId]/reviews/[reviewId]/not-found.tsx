@@ -1,6 +1,5 @@
 "use client";
 
-import { projectWriteAnalyzeData } from "next/dist/build/swc/generated-native";
 import { usePathname } from "next/navigation";
 
 export default function NotFound() {
